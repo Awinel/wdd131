@@ -139,6 +139,7 @@ figure img {
   letter-spacing: 1px;
 }
 
+
 #resources a {
   color: black;
 }
@@ -154,4 +155,5 @@ figure img {
 #resources li  {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
