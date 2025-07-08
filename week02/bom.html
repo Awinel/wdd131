@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 131 DOM Manipulation</title>
+    <meta
+      name="description"
+      content="This is a simple Book of Mormon chapter list application that allows users to add chapters and remove them from the list."
+    />
+    <meta name="author" content="Benjamin Antonio Huerta Torres" />
+    <link rel="stylesheet" href="styles/bom.css" />
+    <script src="scripts/scripts.js" defer></script>
+  </head>
+  <body>
+    <h1>📖 Book of Mormon - Top 10</h1>
+    <main>
+      <label for="favchap">Enter Book and Chapter: </label>
+      <input
+        type="text"
+        id="favchap"
+        placeholder="Alma 5"
+        aria-label="Enter the book and chapter"
+      />
+      <button type="submit" aria-label="Add Chapter Button">Add Chapter</button>
+      <ul id="list"></ul>
+    </main>
+  </body>
+</html>
