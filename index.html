@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/base.css" />
-    <script src="scripts/getdates..js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap"
       rel="stylesheet"
@@ -14,17 +14,18 @@
     </title>
     <meta
       name="description"
-      content="Dynamic Web Fundamentals course project by Benjamin A. Huerta Torres. 
+      content="Dynamic Web Fundamentals WDD131 course project by Benjamin A. Huerta Torres. 
       This project showcases my skills in web development, including HTML, 
       CSS, and JavaScript. It features a personal profile, country information, 
       and web development resources."
     />
-    <meta author="Benjamin A. Huerta Torres" />
+    <meta name="author" content="Benjamin A. Huerta Torres" />
   </head>
   <body>
     <header>
       <span id="course-title">
-        WDD 131: Dynamic Web Fundamentals<br>- <span id="name">Benjamin Antonio Huerta Torres</span> -
+        WDD 131: Dynamic Web Fundamentals<br />-
+        <span id="name">Benjamin Antonio Huerta Torres</span> -
       </span>
       <nav>
         <ul>
@@ -47,49 +48,54 @@
     <main>
       <section class="card">
         <div id="profile">
-        <h2 class="title">About Me</h2>
-        <h1>Benjamin Huerta</h1>
-        <img src="images/profile_photo.jpg" alt="Photo of me using glasses and a white shirt" />
-        <p id="description">
-          My name is Benjamin but I like people to call Benji, I am from Chile
-          in South America. I currently live in a small city called Vallenar in
-          the Atacama Region. I am a member of The Church of Jesus Christ of
-          Latter-day Saints. I am a student at BYU-Idaho majoring applied
-          technology. I am currently working as a full-stack web developer in a
-          marketing company. I love to learn new technologies, create web pages,
-          watch movies and play videogames.
+          <h2 class="title">About Me</h2>
+          <h1>Benjamin Huerta</h1>
+          <img
+            src="images/profile_photo.jpg"
+            alt="Photo of Benjamin Huerta wearing glasses and a white shirt"
+          />
+          <p id="description">
+            My name is Benjamin but I like people to call Benji, I am from Chile
+            in South America. I currently live in a small city called Vallenar
+            in the Atacama Region. I am a member of The Church of Jesus Christ
+            of Latter-day Saints. I am a student at BYU-Idaho majoring applied
+            technology. I am currently working as a full-stack web developer in
+            a marketing company. I love to learn new technologies, create web
+            pages, watch movies and play videogames.
+          </p>
         </div>
         <div id="country">
           <div id="country-header">
             <h3>Chile</h3>
-            <hr>
+            <hr />
           </div>
           <figure>
-            <img src="images/Flag_of_Chile.svg.webp" alt="Flag of Chile">
-            <caption>Official Flag of Chile</caption>
+            <img src="images/Flag_of_Chile.svg.webp" alt="Flag of Chile" />
+            <figcaption>Official Flag of Chile</figcaption>
           </figure>
-          
-          
-          <p>Chile is a long, narrow South American country known for its diverse 
-            landscapes, stretching over 2,700 miles along the western coast, from 
-            the arid Atacama Desert in the north to the glacial fjords of 
-            Patagonia in the south. It's a country of contrasts, boasting both 
-            the driest desert on Earth and glaciers, with a vibrant culture 
-            shaped by its unique geography</p>
+          <p>
+            Chile is a long, narrow South American country known for its diverse
+            landscapes, stretching over 2,700 miles along the western coast,
+            from the arid Atacama Desert in the north to the glacial fjords of
+            Patagonia in the south. It's a country of contrasts, boasting both
+            the driest desert on Earth and glaciers, with a vibrant culture
+            shaped by its unique geography.
+          </p>
         </div>
-        </p>
       </section>
-      </main>
       <section id="right-sidebar" class="card">
         <h2 class="title">Web Dev Resources</h2>
         <ul></ul>
       </section>
+    </main>
     <footer>
       <div id="copyright">
         &copy; <span id="currentyear"></span> 🦖 Benjamin Antonio Huerta Torres
         🦖 Chile
       </div>
-      <div id="modification">Last Modification: <span id="lastModified"></span></div>
+      <div id="modification">
+        Last Modification: <span id="lastModified"></span>
+      </div>
     </footer>
   </body>
 </html>
