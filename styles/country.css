@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #00319b;
+  --secondary-color: #d3271a;
+  --background-color: snow;
+  --text-color: black;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,8 +16,8 @@ body {
 }
 
 header {
-  background-color: #00319b;
-  color: snow;
+  background-color: var(--primary-color);
+  color: var(--text-color);
   padding: 1rem;
   font-family: "Libertinus Math", system-ui;
   font-weight: 400;
@@ -28,7 +35,7 @@ main {
 section {
   text-align: center;
   padding: 1rem;
-  background-color: snow;
+  background-color: var(--background-color);
 }
 
 picture img {
@@ -65,8 +72,8 @@ picture img {
 }
 
 footer {
-  background-color: #d3271a;
-  color: snow;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
   font-family: "Libertinus Math", system-ui;
   font-weight: 400;
   font-style: normal;
