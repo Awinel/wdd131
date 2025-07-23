@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  background-color: #00319b;
+  color: snow;
+  padding: 1rem;
+  font-family: "Libertinus Math", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+main {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section {
+  text-align: center;
+  padding: 1rem;
+  background-color: snow;
+}
+
+picture img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  padding: 1rem;
+}
+
+#weather-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.container p {
+  text-align: right;
+}
+
+.container span {
+  text-align: left;
+}
+
+footer {
+  background-color: #d3271a;
+  color: snow;
+  font-family: "Libertinus Math", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+  padding: 1rem;
+}

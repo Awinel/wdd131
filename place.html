@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/country.css" />
+    <link rel="stylesheet" href="styles/country-large.css" />
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Country Page - WDD 131 - Benjamin A. Huerta Torres</title>
+    <meta
+      name="description"
+      content="This is a country page for WDD 131 - Benjamin A. Huerta Torres"
+    />
+    <meta name="author" content="Benjamin A. Huerta Torres" />
+  </head>
+  <body>
+    <header>
+      <h1>Chile</h1>
+    </header>
+    <main>
+      <picture>
+        <source media="(min-width: 650px)" srcset="images/condor-large.webp" />
+        <img src="images/condor.webp" alt="Chilean Condor" />
+      </picture>
+      <section id="data">
+        <h2>Data</h2>
+        <div class="container">
+          <p><b>Area:</b></p>
+          <span id="area">756,626 km²</span>
+          <p><b>Population:</b></p>
+          <span id="population">20.210.000</span>
+          <p><b>Capital:</b></p>
+          <span id="capital">Santiago</span>
+          <p><b>Languages:</b></p>
+          <span id="languages">Spanish</span>
+          <p><b>Currency:</b></p>
+          <span id="currency">Chilean Peso (CLP)</span>
+          <p><b>Time Zone:</b></p>
+          <span id="time-zone">UTC-3</span>
+          <p><b>Calling Code:</b></p>
+          <span id="calling-code">+569</span>
+          <p><b>Internet TLD:</b></p>
+          <span id="internet-tld">.cl</span>
+        </div>
+      </section>
+      <section id="weather">
+        <div id="weather-title">
+          <h2>Weather</h2>
+          <img src="images/weather.svg" alt="Weather icon" id="weather-icon" />
+        </div>
+        <div class="container">
+          <p><b>Temperature:</b></p>
+          <span id="temperature">30°C</span>
+          <p><b>Conditions:</b></p>
+          <span id="conditions">Sunny</span>
+          <p><b>Wind:</b></p>
+          <span id="wind">5 km/h</span>
+          <p><b>Wind Chill:</b></p>
+          <span id="wind-chill"></span>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="copyright">
+        &copy; <span id="currentyear"></span> 🦖 Benjamin Antonio Huerta Torres
+        🦖 Chile
+      </div>
+      <div id="modification">
+        Last Modification: <span id="lastModified"></span>
+      </div>
+    </footer>
+  </body>
+</html>

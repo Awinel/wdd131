@@ -1,0 +1,47 @@
+@media screen and (min-width: 650px) {
+  main {
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows: 50px 1fr 1fr 1fr 50px;
+  }
+
+  main picture {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+  }
+
+  section {
+    margin: 0px 15px;
+  }
+
+  picture img {
+    width: 100%;
+    height: auto;
+  }
+
+  picture img {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  main #data {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+  }
+
+  main #weather {
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+  }
+
+  #weather-title {
+    flex-direction: row;
+  }
+
+  #weather-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  #weather .container {
+}

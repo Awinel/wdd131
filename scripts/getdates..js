@@ -1,12 +1,12 @@
 const year = new Date().getFullYear();
-const currentYearElement = document.querySelector('#currentyear');
+const currentYearElement = document.querySelector("#currentyear");
 if (currentYearElement) {
-    currentYearElement.textContent = year;
+  currentYearElement.textContent = year;
 }
 
-const lastModifiedElement = document.lastModified
+const lastModifiedElement = document.lastModified;
 
-const lastModifiedDateElement = document.querySelector('#lastModified');
+const lastModifiedDateElement = document.querySelector("#lastModified");
 if (lastModifiedDateElement) {
-    lastModifiedDateElement.textContent = lastModifiedElement;
+  lastModifiedDateElement.textContent = lastModifiedElement;
 }
