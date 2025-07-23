@@ -17,7 +17,7 @@ body {
 
 header {
   background-color: var(--primary-color);
-  color: var(--text-color);
+  color: var(--background-color);
   padding: 1rem;
   font-family: "Libertinus Math", system-ui;
   font-weight: 400;
@@ -27,7 +27,6 @@ header {
 
 main {
   font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -58,9 +57,10 @@ picture img {
   gap: 10px;
 }
 
-#weather-icon {
-  width: 100px;
-  height: 100px;
+#weather-title::after {
+  content: "☀️";
+  font-size: 50px;
+  margin-left: 10px;
 }
 
 .container p {
@@ -73,7 +73,7 @@ picture img {
 
 footer {
   background-color: var(--secondary-color);
-  color: var(--text-color);
+  color: var(--background-color);
   font-family: "Libertinus Math", system-ui;
   font-weight: 400;
   font-style: normal;
