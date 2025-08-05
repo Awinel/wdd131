@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap"
+      rel="stylesheet"
+    />
+    <title>WDD 131 - Product Review Form - Benjamin A. Huerta Torres</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Benjamin A. Huerta Torres" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Product Review</h1>
+    </header>
+    <main id="main-form">
+      <form method="GET" action="review.html">
+        <label
+          >Product Name
+          <select name="product" id="product" required>
+            <option value="" disabled selected>Select a product...</option>
+          </select>
+        </label>
+
+        <p>Overall Rating</p>
+        <div class="rating-group">
+          <label for="rating1">
+            <input type="radio" name="rating" value="1" id="rating1" required />
+            ⭐
+          </label>
+          <label for="rating2">
+            <input type="radio" name="rating" value="2" id="rating2" required />
+            ⭐⭐
+          </label>
+          <label for="rating3">
+            <input type="radio" name="rating" value="3" id="rating3" required />
+            ⭐⭐⭐
+          </label>
+          <label for="rating4">
+            <input type="radio" name="rating" value="4" id="rating4" required />
+            ⭐⭐⭐⭐
+          </label>
+          <label for="rating5">
+            <input type="radio" name="rating" value="5" id="rating5" required />
+            ⭐⭐⭐⭐⭐
+          </label>
+        </div>
+
+        <label for="installation-date">
+          Date of Installation
+          <input
+            type="date"
+            id="installation-date"
+            name="installation-date"
+            required
+          />
+        </label>
+
+        <label>
+          Which features did you find useful in the product?
+          <span style="font-size: 12px; color: #666"
+            >(Check all that apply)</span
+          >
+          <div class="checkbox-group">
+            <label
+              ><input type="checkbox" name="features" value="Durability" />
+              Durability</label
+            >
+            <label
+              ><input type="checkbox" name="features" value="Ease of Use" />
+              Ease of Use</label
+            >
+            <label
+              ><input type="checkbox" name="features" value="Performance" />
+              Performance</label
+            >
+            <label
+              ><input type="checkbox" name="features" value="Design" />
+              Design</label
+            >
+          </div>
+        </label>
+
+        <label>
+          Written Review <span class="optional">Optional</span>
+          <textarea name="review" id="review" name="review"></textarea>
+        </label>
+
+        <label
+          >Your name <span class="optional">Optional</span
+          ><input type="text" name="name"
+        /></label>
+
+        <button type="submit">Post Review</button>
+      </form>
+    </main>
+    <footer>
+      <div id="copyright">
+        &copy; <span id="currentyear"></span> 🦖 Benjamin Antonio Huerta Torres
+        🦖 Chile
+      </div>
+      <div id="modification">
+        Last Modification: <span id="lastModified"></span>
+      </div>
+    </footer>
+  </body>
+</html>
