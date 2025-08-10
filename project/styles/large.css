@@ -1,0 +1,61 @@
+@media screen and (min-width: 650px) {
+  #hamburger {
+    display: none;
+  }
+
+  nav {
+    top: 0;
+    flex-direction: row;
+    padding-top: 0;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+  }
+
+  #header-text {
+    position: relative;
+    text-align: left;
+    top: -100px;
+  }
+
+  #main-header {
+    background-image: url("/project/images/large-profile.webp");
+    background-position: center 150px;
+    background-size: 900px;
+  }
+
+  .text-part {
+    display: block;
+    text-align: left;
+  }
+
+  #about-content {
+    flex-direction: row;
+  }
+
+  #about img {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 290px;
+    height: 300px;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--primary-color);
+  }
+
+  #skills-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: start;
+  }
+
+  #about-content,
+  #skills-content,
+  #project-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  #form-page {
+    margin: 6rem 0;
+  }
+}

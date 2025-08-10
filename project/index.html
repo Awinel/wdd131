@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/base.css" />
-    <script src="scripts/getdates.js" defer></script>
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/scripts.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,36 +20,136 @@
     <meta name="author" content="Benjamin Antonio Huerta Torres" />
   </head>
   <body>
-    <header>
-      <h1>Benjamin Antonio Huerta Torres</h1>
-      <p>Web Developer</p>
+    <button id="hamburger">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    <nav></nav>
+    <header id="main-header">
+      <div id="header-text">
+        <h1 class="text-part left">
+          Benjamin Antonio <br />
+          Huerta Torres
+        </h1>
+        <h2 class="text-part right">Full-Stack Web Developer</h2>
+      </div>
     </header>
     <main>
-      <section>
+      <section id="about">
         <h2>About Me</h2>
-        <p>
-          I am a passionate web developer with experience in creating dynamic
-          and responsive websites. My skills include HTML, CSS, JavaScript, and
-          various web development frameworks.
-        </p>
+        <div id="about-content">
+          <picture>
+            <img src="images/small-profile-2.webp" alt="Profile Picture" />
+          </picture>
+          <p>
+            I'm Benjamin Huerta - a passionate programmer eager to learn more
+            about designing the apps and websites of the future. I enjoy
+            exercising, watching movies, playing video games, and especially
+            designing websites that are useful in everyday life. I started
+            studying at BYU-Pathway in 2019, right when the pandemic started.
+            I'm currently in my last year of college at BYU-Idaho Online, and
+            it's been totally worth it!
+          </p>
+        </div>
       </section>
-      <section>
-        <h2>Projects</h2>
+      <section id="education">
+        <h2>Education</h2>
         <ul>
           <li>
-            <a href="https://example.com/project1">Project 1</a> - A brief
-            description of Project 1.
+            <strong>Certificate in web and programming</strong> <br />-
+            BYU-Idaho, July 2023 -
           </li>
           <li>
-            <a href="https://example.com/project2">Project 2</a> - A brief
-            description of Project 2.
+            <strong>Certificate in Web Development</strong> <br />- BYU-Idaho,
+            April 2024 -
+          </li>
+          <li>
+            <strong>Associate Degree in Applied Technology</strong> <br />-
+            BYU-Idaho, July 2024 -
+          </li>
+          <li>
+            <strong>Certificate in Database</strong> <br />- BYU-Idaho, February
+            2025 -
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Contact</h2>
-        <p>Email: benjamin@example.com</p>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-content">
+          <div>
+            <h4>✅ Frontend Development</h4>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>React.js</li>
+              <li>Next.js</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
+          <div>
+            <h4>✅ Backend / Full-Stack</h4>
+            <ul>
+              <li>Payload CMS</li>
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+              <li>Model Context Protocol (MCP)</li>
+            </ul>
+          </div>
+          <div>
+            <h4>⚙️ Developer Operations / Tools</h4>
+            <ul>
+              <li>Vercel</li>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+          <div>
+            <h4>📈 Testing / Analytics / A/B Testing</h4>
+            <ul>
+              <li>PostHog integration</li>
+              <li>Experimentation logic and metrics collection</li>
+            </ul>
+          </div>
+          <div>
+            <h4>💬 Soft Skills</h4>
+            <ul>
+              <li>Clear and structured documentation for teams</li>
+              <li>Effective communication and presentations</li>
+              <li>Strong problem-solving and debugging</li>
+              <li>Autonomy in planning, learning, and delivery</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="projects">
+        <h2>Projects</h2>
       </section>
     </main>
+    <footer>
+      <div id="social-links">
+        <a href="https://github.com/Awinel" target="_blank">
+          <img src="images/github.svg" alt="GitHub Icon" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/benjaminhuertatorres/"
+          target="_blank"
+        >
+          <img src="images/linkedin.svg" alt="LinkedIn Icon" />
+        </a>
+        <a href="https://www.instagram.com/_benjaht_/" target="_blank">
+          <img src="images/instagram.svg" alt="Instagram Icon" />
+        </a>
+      </div>
+      <div id="footer-links">
+        <a href="projects.html">Projects</a>
+        <a href="contact-me.html">Contact Me</a>
+      </div>
+      <p>
+        &copy; <span id="currentyear"></span> Benjamin Antonio Huerta Torres.
+        <br />
+        All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>
