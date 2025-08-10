@@ -18,7 +18,7 @@
   }
 
   #main-header {
-    background-image: url("/project/images/large-profile.webp");
+    background-image: url("https://awinel.github.io/wdd131/project/images/large-profile.webp");
     background-position: center 150px;
     background-size: 900px;
   }

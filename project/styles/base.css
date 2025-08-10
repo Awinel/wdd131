@@ -93,7 +93,7 @@ hr {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-image: url("/project/images/small-profile.webp");
+  background-image: url("https://awinel.github.io/wdd131/project/images/small-profile.webp");
   background-position: center top 240px;
   background-size: 500px 500px;
   background-repeat: no-repeat;
