@@ -84,7 +84,7 @@ function renderProjects(selector) {
       <h3>${project.title}</h3>
       <p>${project.description}</p>
       <a href="${project.githubUrl}" target="_blank">
-        <img src="images/github.svg" alt="GitHub Icon" />
+        <img src="images/github.svg" alt="GitHub Icon" loading="lazy" />
       </a>
       <a href="${project.liveUrl}" target="_blank">${project.liveName}</a>
       </div>

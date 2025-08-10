@@ -46,7 +46,7 @@ function renderProjects(containerId) {
         <img src="${project.image}" alt="${project.title} Screenshot" />
       </picture>
       <a href="${project.githubUrl}" target="_blank">
-        <img src="images/github.svg" alt="GitHub Icon" />
+        <img src="images/github.svg" alt="GitHub Icon" loading="lazy"/>
       </a>
       <a href="${project.liveUrl}" target="_blank">${project.liveName}</a>
     `;
