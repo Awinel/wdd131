@@ -149,11 +149,6 @@ const themeToggle = document.createElement("button");
 themeToggle.id = "theme-toggle";
 themeToggle.innerHTML = "🌙";
 themeToggle.style.cssText = `
-  position: relative;
-  top: -200px;
-  right: -700px;
-  border: 1px solid;
-  border-radius: 10%;
   cursor: pointer;
   transition: all 0.3s ease;
 `;
@@ -174,7 +169,7 @@ function toggleTheme() {
 themeToggle.addEventListener("click", toggleTheme);
 
 document.addEventListener("DOMContentLoaded", function () {
-  const footer = document.querySelector("footer");
+  const footer = document.getElementById("theme");
 
   footer.appendChild(themeToggle);
 
