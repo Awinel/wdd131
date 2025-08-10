@@ -654,3 +654,18 @@ nav a:hover {
   background-color: transparent;
   transform: scale(1.5);
 }
+
+#thank-you-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#thank-you-page h1 {
+  font-size: 40px;
+}
+
+#thank-you-page p {
+  font-size: 30px;
+}
